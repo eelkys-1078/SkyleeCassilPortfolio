@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "emailjs-com": "^3.2.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.3.2"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^3.4.3"
+  },
+  "homepage": "https://<username>.github.io/<repository-name>"
+}
